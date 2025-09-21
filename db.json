@@ -43,6 +43,22 @@
       "brand": "Nike",
       "price": 150,
       "imageUrl": "https://placehold.co/600x400"
+    },
+    {
+      "id": 5,
+      "productName": "Running Shoes 2",
+      "category": "Fashion",
+      "brand": "Nike",
+      "price": 150,
+      "imageUrl": "https://placehold.co/600x400"
+    },
+    {
+      "id": 6,
+      "productName": "Running Shoes 2 pro",
+      "category": "Fashion",
+      "brand": "Nike",
+      "price": 150,
+      "imageUrl": "https://placehold.co/600x400"
     }
   ]
 }

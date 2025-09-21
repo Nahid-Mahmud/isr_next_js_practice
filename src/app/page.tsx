@@ -2,7 +2,10 @@ import Link from "next/link";
 
 export default async function Products() {
   const res = await fetch("http://localhost:5000/products", {
-    cache: "force-cache",
+    // cache: "force-cache",
+    next: {
+      revalidate: 10,
+    },
   });
   const products = (await res.json()) || [];
   // console.log(products);
