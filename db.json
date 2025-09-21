@@ -1,0 +1,48 @@
+{
+  "posts": [
+    { "id": 1, "title": "Introduction to Next.js", "author": "John Doe" },
+    { "id": 2, "title": "Understanding Incremental Static Regeneration", "author": "Jane Smith" },
+    { "id": 3, "title": "Building Dynamic APIs with Next.js", "author": "Bob Johnson" }
+  ],
+  "comments": [
+    { "id": 1, "body": "Great introduction!", "postId": 1 },
+    { "id": 2, "body": "Thanks for explaining ISR.", "postId": 2 },
+    { "id": 3, "body": "Looking forward to more tutorials.", "postId": 1 },
+    { "id": 4, "body": "This helped me a lot.", "postId": 3 }
+  ],
+  "profile": { "name": "typicode" },
+  "products": [
+    {
+      "id": 1,
+      "productName": "Gaming Laptop",
+      "category": "Electronics",
+      "brand": "Dell",
+      "price": 1200,
+      "imageUrl": "https://via.placeholder.com/300x200?text=Gaming+Laptop"
+    },
+    {
+      "id": 2,
+      "productName": "Smartphone",
+      "category": "Electronics",
+      "brand": "Samsung",
+      "price": 800,
+      "imageUrl": "https://placehold.co/600x400"
+    },
+    {
+      "id": 3,
+      "productName": "Programming Book",
+      "category": "Books",
+      "brand": "O'Reilly",
+      "price": 50,
+      "imageUrl": "https://placehold.co/600x400"
+    },
+    {
+      "id": 4,
+      "productName": "Running Shoes",
+      "category": "Fashion",
+      "brand": "Nike",
+      "price": 150,
+      "imageUrl": "https://placehold.co/600x400"
+    }
+  ]
+}
